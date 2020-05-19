@@ -1,0 +1,99 @@
+{
+  "private": true,
+  "description": "Apparatus Meta",
+  "workspaces": [
+    "packages/@apparatus/meta/*"
+  ],
+  "devDependencies": {
+    "@apparatus/meta-start-preset": "*",
+    "@nextools/eslint-config": "^0.1.2",
+    "@nextools/typescript-config": "^0.1.0",
+    "@sandbox/ui": "^3.0.0",
+    "@start/plugin": "^1.0.0",
+    "@types/node": "^13.13.4",
+    "core-js": "^3.2.1",
+    "elegir": "^1.0.0",
+    "eslint": "^6.1.0",
+    "graphiq": "^0.2.3",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-native": "0.62.2",
+    "redux": "^4.0.4",
+    "refun": "^2.0.0",
+    "tsfn": "^1.1.1",
+    "typescript": "^3.8.3"
+  },
+  "start": {
+    "file": "tasks/",
+    "auto": {
+      "shouldWriteChangelogFiles": true
+    }
+  },
+  "auto": {
+    "bump": {
+      "initialType": "minor",
+      "zeroBreakingChangeType": "minor"
+    },
+    "npm": {
+      "publishSubDirectory": "build",
+      "access": "public"
+    },
+    "prefixes": {
+      "major": "💥",
+      "minor": "🌱",
+      "patch": "🐞",
+      "publish": "📦",
+      "initial": "🐣",
+      "cleanup": "🧹",
+      "lint": "🚷",
+      "test": "👾",
+      "docs": "📝",
+      "refactor": "🛠",
+      "wip": "🚧",
+      "screenshots": "📸",
+      "dependencies": "♻️"
+    },
+    "commit": {
+      "major": "Breaking Change",
+      "minor": "New feature",
+      "patch": "Bugfix",
+      "initial": "Initial",
+      "cleanup": "Cleanup",
+      "lint": "Lint",
+      "test": "Test",
+      "docs": "Docs",
+      "refactor": "Refactor",
+      "wip": "Work in progress",
+      "screenshots": "Snapshots / Screenshots",
+      "dependencies": "Dependencies"
+    }
+  },
+  "eslintConfig": {
+    "extends": "@nextools/eslint-config"
+  },
+  "eslintIgnore": [
+    "build/",
+    "coverage/",
+    "node_modules/"
+  ],
+  "renovate": {
+    "commitMessagePrefix": "♻️",
+    "commitMessageAction": "update",
+    "commitMessageTopic": "{{depName}}",
+    "ignoreDeps": [
+      "gradle",
+      "typescript"
+    ],
+    "packageRules": [
+      {
+        "packageNames": [
+          "@types/node"
+        ],
+        "allowedVersions": "<12"
+      }
+    ]
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}

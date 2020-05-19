@@ -43,8 +43,9 @@ export const Sandbox = ({ entryPointPath, htmlTemplatePath, assetsPath, fontsDir
           iOSVersion: '13.2',
           fontsDir,
           dependencyNames: [
-            'react-native-svg',
             'lottie-react-native',
+            'react-native-share',
+            'react-native-svg',
           ],
         })
       }),
@@ -57,8 +58,9 @@ export const Sandbox = ({ entryPointPath, htmlTemplatePath, assetsPath, fontsDir
           appName: 'Sandbox',
           fontsDir,
           dependencyNames: [
-            'react-native-svg',
             'lottie-react-native',
+            'react-native-share',
+            'react-native-svg',
           ],
           portsToForward: [3001],
         })

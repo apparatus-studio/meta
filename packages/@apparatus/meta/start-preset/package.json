@@ -78,6 +78,7 @@
     "prompts": "^2.1.0",
     "react": "16.11.0",
     "react-native-exception-handler": "^2.10.8",
+    "react-native-share": "^3.3.2",
     "react-native-svg": "^12.1.0",
     "react-native-view-shot": "^3.1.1",
     "rplace": "^0.2.0",
@@ -97,13 +98,14 @@
   },
   "fixdeps": {
     "ignoredPackages": [
+      "@babel/core",
       "@x-ray/native-screenshots-app",
       "@x-ray/web-mobile-screenshots-app",
-      "react-native-svg",
-      "react-native-exception-handler",
-      "react-native-view-shot",
       "lottie-react-native",
-      "@babel/core"
+      "react-native-exception-handler",
+      "react-native-share",
+      "react-native-svg",
+      "react-native-view-shot"
     ]
   }
 }

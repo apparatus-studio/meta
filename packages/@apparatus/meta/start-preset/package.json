@@ -30,6 +30,7 @@
     "@babel/core": "^7.8.0",
     "@babel/register": "^7.8.0",
     "@nextools/babel-config": "^0.1.4",
+    "@react-native-community/async-storage": "^1.10.3",
     "@rebox/android": "^2.0.5",
     "@rebox/ios": "^2.0.5",
     "@rebox/web": "^2.1.5",

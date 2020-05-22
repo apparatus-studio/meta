@@ -1879,10 +1879,10 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
-"@rebox/android@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@rebox/android/-/android-2.0.5.tgz#621008a7350c1665eb14574380f6a77229d44aa6"
-  integrity sha512-A0M5PYSvp6E1PbAWVw5l7iB+cAHzVANycxKHwHrtcdp/fcu+SW9llxNxRelS/W/XgNk1yMT1bD8KrcB7NoZtaA==
+"@rebox/android@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@rebox/android/-/android-2.0.6.tgz#2511a760bf8fee45ee022e8a08cff4c348b29deb"
+  integrity sha512-QNFvnCRPOKsQswhnFtUOSmsXKKKkc8rqg2lNzbKf7wY04EiXJoIGkk3hysPQPxnupZdq/alZ0aS86TBsXk5+1A==
   dependencies:
     "@babel/runtime" "^7.4.3"
     "@rebox/native-utils" "^2.0.5"

@@ -1,3 +1,7 @@
+## v0.3.1
+
+* 🐞 update @rebox/android dependency
+
 ## v0.3.0
 
 * 🌱 support @react-native-community/async-storage

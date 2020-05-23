@@ -45,6 +45,7 @@ export const Sandbox = ({ entryPointPath, htmlTemplatePath, assetsPath, fontsDir
           dependencyNames: [
             '@react-native-community/async-storage',
             'lottie-react-native',
+            'react-native-localize',
             'react-native-share',
             'react-native-svg',
           ],
@@ -61,6 +62,7 @@ export const Sandbox = ({ entryPointPath, htmlTemplatePath, assetsPath, fontsDir
           dependencyNames: [
             '@react-native-community/async-storage',
             'lottie-react-native',
+            'react-native-localize',
             'react-native-share',
             'react-native-svg',
           ],

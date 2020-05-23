@@ -1,6 +1,6 @@
 {
   "name": "@apparatus/meta-start-preset",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "bin": {
     "start": "src/cli/index.js"
   },

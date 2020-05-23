@@ -1,3 +1,7 @@
+## v0.4.0
+
+* 🌱 add react-native-localize
+
 ## v0.3.1
 
 * 🐞 update @rebox/android dependency
